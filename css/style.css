@@ -4,10 +4,12 @@ body {
 }
 
 nav {
+    width: 100%;
   background-color: #f5f7fa;
   color: #18191f;
   text-align: center;
   display: flex;
+  position: fixed;
   justify-content: space-around;
   align-items: baseline;
   padding-bottom: 10px;
