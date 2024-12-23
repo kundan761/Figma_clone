@@ -1,0 +1,230 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  background-color: #f5f7fa;
+  color: #18191f;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-bottom: 10px;
+}
+.logo {
+  display: flex;
+  gap: 1.67px;
+  height: fit-content;
+  align-items: baseline;
+}
+.logo img {
+  width: 35px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+.logo h2 {
+  font-size: 30px;
+  font-weight: bold;
+  width: 111.49px;
+  height: 20.66px;
+  gap: 0px;
+  opacity: 0px;
+}
+li {
+  list-style: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #18191f;
+}
+a {
+  text-decoration: none;
+  color: #18191f;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+.login {
+  background-color: #f5f7fa;
+  width: 77px;
+  height: 40px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 0px;
+  border: none;
+  color: #4caf4f;
+}
+.signup {
+  width: Hug (91px) px;
+  height: Hug (40px) px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 0px;
+  border: none;
+  background-color: #4caf4f;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#home {
+  display: flex;
+  width: Fill (1, 440px) px;
+  height: Hug (599px) px;
+  padding: 96px 144px 96px 144px;
+  gap: 104px;
+  opacity: 0px;
+  padding: 96px 144px 96px 144px;
+  gap: 104px;
+  opacity: 0px;
+  background-color: #f5f7fa;
+  flex-wrap: wrap;
+}
+
+#home .left {
+  width: Fill (657px) px;
+  height: Hug (276px) px;
+  gap: 32px;
+  opacity: 0px;
+}
+
+#home .left h1 {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d4d4d;
+}
+#home h1 span {
+  color: #4caf4f;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.left p {
+  margin-top: 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #717171;
+}
+
+#home .left button {
+  width: Hug (128px) px;
+  height: Hug (52px) px;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+  color: white;
+  background-color: #4caf4f;
+  margin-top: 32px;
+}
+
+#home .right {
+  width: 391px;
+  height: 407px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  width: Fixed (1, 440px) px;
+  height: Hug (190px) px;
+  padding: 0px 144px 0px 144px;
+  gap: 16px;
+  opacity: 0px;
+}
+#services .top h2 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d4d4d;
+}
+
+#services .top p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #717171;
+}
+
+#services .clients {
+  display: flex;
+  gap: 136px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#services .top .clients img {
+  width: 48px;
+  height: 48px;
+}
+
+#Feature {
+  display: flex;
+  flex-direction: column;
+  width: Hug (1, 440px) px;
+  height: Hug (416px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+#Feature .top h2 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d4d4d;
+}
+
+#Feature .top p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #717171;
+}
