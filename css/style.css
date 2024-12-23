@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   padding: 0%;
+  font-family: Inter;
 }
 
 nav {
@@ -269,6 +270,11 @@ main {
 }
 
 #Feature .down .card .topPart h3 {
+  width: 267px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+
   font-family: Inter;
   font-size: 28px;
   font-weight: 700;
@@ -302,3 +308,103 @@ main {
   color: #717171;
 }
 
+#Product {
+  display: flex;
+  flex-direction: column;
+  width: Hug (1, 440px) px;
+  height: Hug (2, 242.4px) px;
+  top: 1411px;
+  left: 1px;
+  gap: 48px;
+  opacity: 0px;
+}
+
+#Product .product-first {
+  display: flex;
+  width: Fixed (1, 440px) px;
+  height: Hug (433px) px;
+  padding: 0px 144px 0px 144px;
+  gap: 0px;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0px;
+}
+
+#Product .product-first .unlock-first {
+  width: 442px;
+  height: 433px;
+  padding: 52px 0.47px 52.01px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+#Product .product-first .unlock-second {
+  display: flex;
+  flex-direction: column;
+  width: Fixed (661px) px;
+  height: Hug (268px) px;
+  gap: 32px;
+  opacity: 0px;
+}
+
+#Product .product-first .unlock-second .unlock-second-sub1 {
+  width: Fixed (601px) px;
+  height: Hug (184px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+#Product .product-first .unlock-second .unlock-second-sub1 h2 {
+  width: 601px;
+  height: 88px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d4d4d;
+}
+
+#Product .product-first .unlock-second .unlock-second-sub1 p {
+  width: 601px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #717171;
+}
+
+#Product .product-first .unlock-second .unlock-second-sub2 button {
+  width: Hug (151px) px;
+  height: Hug (52px) px;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  opacity: 0px;
+  border: none;
+  color: white;
+  background-color: #4caf4f;
+  font-family: Inter;
+}
+
+#Product .product-second {
+  display: flex;
+  flex-wrap: wrap;
+  width: Fixed (1, 440px) px;
+  height: Hug (288px) px;
+  padding: 64px 144px 64px 144px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  background-color: #f5f7fa;
+}
