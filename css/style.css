@@ -554,7 +554,7 @@ main {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #717171;  
+  color: #717171;
   margin: 0px;
   padding: 0px;
 }
@@ -571,4 +571,31 @@ main {
   background-color: #4caf4f;
   font-family: Inter;
   font-size: 16px;
+}
+
+#Product .product-fourth {
+  background-color:#F5F7FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: Fixed (1, 440px) px;
+  height: Hug (390px) px;
+  padding: 32px 144px 32px 144px;
+  gap: 78px;
+  opacity: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub1 {
+  width: 326px;
+  height: 326px;
+  gap: 0px;
+  border-radius: 8px 0px 8x 0px;
+  opacity: 0px;
+}
+#Product .product-fourth .product-fourth-sub1 img {
+  width: 326px;
+  height: 326px;
+  border-radius: 8px;
+  filter: drop-shadow(0px 8px 16px 0px #ABBED166);
 }
