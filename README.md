@@ -1,6 +1,6 @@
 # Nextcent
 
-**Nextcent** is a simple website Figma clone.
+**Nextcent** is a simple website Figma clone designed to help users create and prototype their design projects with ease. This tool is perfect for anyone looking to experiment with design concepts in a familiar, intuitive environment without the complexity of more advanced software.
 
 ## Features
 
@@ -18,9 +18,11 @@
 
 ## Screenshots
 
-![Screenshot 1](./assets/Homepage.png)
+### Homepage
+![Screenshot 1](./assets/HomePage.png)
 
-![Screenshot 2](./assets/footer.png)
+### Footer
+![Screenshot 2](./assets/Footer.png)
 
 ## License
 
