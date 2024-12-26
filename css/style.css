@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 body {
   margin: 0%;
   padding: 0%;
-  font-family: Inter;
+  font-family: "Inter", serif;
+  box-sizing: border-box;
 }
 
 nav {
@@ -143,7 +145,7 @@ main {
   height: Hug (52px) px;
   padding: 14px 32px 14px 32px;
   gap: 10px;
-  border-radius: 4px 0px 0px 0px;
+  border-radius: 4px;
   opacity: 0px;
   border: none;
   color: white;
@@ -574,16 +576,16 @@ main {
 }
 
 #Product .product-fourth {
-  background-color:#F5F7FA;
+  background-color: #f5f7fa;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   width: Fixed (1, 440px) px;
   height: Hug (390px) px;
   padding: 32px 144px 32px 144px;
   gap: 78px;
   opacity: 0px;
+  align-items: center;
+  justify-content: baseline;
 }
 
 #Product .product-fourth .product-fourth-sub1 {
@@ -591,11 +593,147 @@ main {
   height: 326px;
   gap: 0px;
   border-radius: 8px 0px 8x 0px;
+  padding: 0%;
   opacity: 0px;
 }
 #Product .product-fourth .product-fourth-sub1 img {
   width: 326px;
   height: 326px;
-  border-radius: 8px;
-  filter: drop-shadow(0px 8px 16px 0px #ABBED166);
+  filter: drop-shadow(0px 8px 16px 0px #abbed166);
+}
+
+#Product .product-fourth .product-fourth-sub2 {
+  display: flex;
+  flex-direction: column;
+  width: Fill (748px) px;
+  height: Hug (324px) px;
+  gap: 32px;
+  opacity: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partOne {
+  display: flex;
+  flex-direction: column;
+  width: Fill (748px) px;
+  height: Hug (244px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partOne p {
+  width: 748px;
+  height: 168px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #717171;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partOne h4 {
+  width: 748px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4caf4f;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partOne span {
+  width: 748px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #89939e;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partTwo {
+  width: Fill (748px) px;
+  height: Hug (48px) px;
+  gap: 32px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partTwo .partTwo-sub1 {
+  width: Hug (493px) px;
+  height: Hug (48px) px;
+  gap: 41px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partTwo .partTwo-sub1 img {
+  width: 48px;
+  height: 48px;
+  padding: 0.19px 7.65px 7.81px 0.35px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partTwo .partTwo-sub2 {
+  width: Fill (223px) px;
+  height: Hug (44px) px;
+  padding: 8px 0px 0px 0px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partTwo .partTwo-sub2 h4 {
+  width: 188px;
+height: 28px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #4caf4f;
+margin: 0px;
+padding: 0px;
+}
+
+#Product .product-fourth .product-fourth-sub2 .partTwo .partTwo-sub2 img {
+  width: 24px;
+height: 24px;
+padding: 8px 5px 8px 4.41px;
+gap: 0px;
+opacity: 0px;
+margin-left: -17px;
 }
